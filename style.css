@@ -160,6 +160,10 @@ p {
         .profile {
             align-items: flex-start;
         }
+
+        .col-lg-12 {
+            background-color: dimgray;
+        }
     }
     
     .col-lg-12 {
