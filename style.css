@@ -30,15 +30,19 @@ p {
    padding-top: 48px;
         
         padding-bottom: 179px;
+        
 }
 
 .skillset {
     border-top: 1px solid    black;
+    padding-left: 50px;
+        padding-right: 50px;
 
     & h1 {
     margin-top: 26px;
     
     margin-bottom: 33px;
+
     }
 
     & ul { 
@@ -53,6 +57,8 @@ p {
 }
 
 .toolset { 
+    padding-left: 50px;
+        padding-right: 50px;
     border-top: 1px solid    black;
 
 
@@ -65,6 +71,8 @@ p {
     }    
 }
 .contactme {  
+    padding-left: 50px;
+        padding-right: 50px;
     border-top: 1px solid    black;
     
     & h1 {
@@ -83,6 +91,8 @@ p {
 }
 
 .name {
+    padding-left: 50px;
+        padding-right: 50px;
     margin-top: 104px;
         margin-bottom: 93px;
     text-align: center;
@@ -94,6 +104,8 @@ p {
 }
 
 .profile {
+    padding-left: 50px;
+        padding-right: 50px;
     border-top: 1px solid    black;
     & h1 {
         margin-top: 26px;
@@ -103,6 +115,8 @@ p {
 }
 
 .education {
+    padding-left: 50px;
+        padding-right: 50px;
     border-top: 1px solid    black;
 
     & h1 {
@@ -115,6 +129,8 @@ p {
     }
 }
 .achievements {
+    padding-left: 50px;
+        padding-right: 50px;
     border-top: 1px solid    black;
 
     & h1 {
@@ -144,8 +160,11 @@ p {
         .profile {
             align-items: flex-start;
         }
-        
-        
     }
     
+    .col-lg-12 {
+        background-color: dimgrey;
+        
+    }
+
 
