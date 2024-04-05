@@ -122,6 +122,7 @@ p {
     padding-left: 50px;
         padding-right: 50px;
     border-top: 1px solid    black;
+    
 
     & h1 {
         margin-top: 49px;
@@ -129,8 +130,20 @@ p {
     }
 
     & p {
-        margin-bottom: 37px;
+        margin: 30px 0px;
+        text-align: center;
     }
+
+    & img {
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        margin: auto;
+        display: block;
+    }
+    
+
+   
 }
 .achievements {
     padding-left: 50px;
@@ -187,3 +200,13 @@ p {
         }
     }
 
+.toolset ul {
+    display: inline;
+    list-style-type: none;
+    
+    img {
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+    }
+}
