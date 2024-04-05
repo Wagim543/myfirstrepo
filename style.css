@@ -24,13 +24,10 @@ p {
 
 
 .Logo { 
-    
-    
-   
    padding-top: 48px;
-        
-        padding-bottom: 179px;
-        
+   padding-bottom: 179px;
+   
+     
 }
 
 .skillset {
@@ -143,17 +140,13 @@ p {
         margin-bottom: 37px;
     }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 767px) {
 
         body {
             background-color: var(--grey);
         }
 
-        .col-lg-3{
-            background-color: var(--grey);
-        }
-    
-        .col-lg-9{
+        .col-lg-3 ,.col-lg-9{
             background-color: var(--grey);
         }
 
@@ -164,11 +157,21 @@ p {
         .col-lg-12 {
             background-color: dimgray;
         }
+        
+        .Logo {
+            display: flex;
+            justify-content: center;
+            margin: 50px 0px;
+            padding: 0px;
+        }
     }
+    
     
     .col-lg-12 {
         background-color: dimgrey;
         
     }
+
+    
 
 
