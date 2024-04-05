@@ -26,9 +26,16 @@ p {
 .Logo { 
    padding-top: 48px;
    padding-bottom: 179px;
+/* 
+   background: url(./Assets/Logo.png) no-repeat;
+   max-width: 100px;
+   min-height: 100px;
+   background-size: contain; */
+   
    
      
 }
+
 
 .skillset {
     border-top: 1px solid    black;
@@ -173,5 +180,10 @@ p {
     }
 
     
-
+    @media screen and (max-width: 992px) {
+        .Logo {
+            text-align: center;
+            padding: 100px;
+        }
+    }
 
