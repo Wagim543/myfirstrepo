@@ -7,29 +7,17 @@
     --Blue4:#00237D;  
 }
 
-* {
-    box-sizing: border-box;
-}
+.logo  {
+    & .col-9 {
+       & picture {
+        margin: auto;
+       }
+    }
 
-h2 {
-    font-size: 32px;
-}
-
-
-
-.leftside {
-    float: left;
-
-    & .logo {
-        background-color: var(--Orange);
-        width: 80vh;
-        height: 22.5vh;
+    & .col-3 {
+        & p {
+            display: flex;
+            justify-content: flex-end;
+        }
     }
 }
-
-.rightside {
-    float:right;
-}
-
-
-
